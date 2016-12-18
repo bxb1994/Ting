@@ -1,0 +1,132 @@
+.main-text{
+	width:100%;
+	overflow: hidden;
+}
+.main-text-top{
+	width:7.02rem;
+	height:0.8rem;
+	margin:0 auto;
+	margin-top:0.2rem;
+}
+.admin-img{
+	width:0.8rem;height:0.8rem;
+	float:left;
+}
+.admin-img img{
+	width:0.7rem;height:0.7rem;
+	border-radius:50%;
+	float:left;
+	margin-top:0.05rem;
+	margin-left:0.05rem;
+}
+.fabu-time{
+	height:100%;
+	width:1.5rem;
+	float:left;
+	margin-left:0.05rem;
+}
+.fabu-time span{
+	float:left;
+}
+.time{
+	font-size:0.24rem;
+	color:#999999;
+	padding:0.05rem 0.05rem;
+}
+.name{
+	font-size:0.28rem;
+	color:#2AC845;
+}
+.main-text-center{
+	width:100%;
+	margin-top:0.3rem;
+}	
+.center-pic{
+	width:100%;height:auto;
+}
+.center-pic img{
+	width:100%;
+}
+.main-text-bottom{
+	width:7.02rem;
+	margin:0.3rem auto;
+}
+.main-text-bottom p{
+	font-size:0.3rem;
+	margin-top:0.3rem;
+	color:#333;
+	padding-bottom:0.2rem;
+}
+.from{
+	width:7.02rem;height:0.5rem;
+	margin-left:0.24rem;
+	font-size:0.24rem;
+	line-height:0.5rem;
+	margin-top:0.6rem;
+	color:#999;
+}
+.dt-pinglun{
+	width:100%;
+}
+.plun{
+	width:100%;
+	line-height:1rem;
+	text-indent: 0.24rem;
+	font-size:0.24rem;
+	background:#f0f0f0;
+	margin-top:0.5rem;
+}
+.plun-words{
+	width:7.02rem;
+	margin-left:0.24rem;
+	padding:0.4rem 0;
+	font-size:0.26rem;
+	color:#333;
+}
+.plun-words span{
+	width:100%;height:0.3rem;
+	background:#f0f0f0;
+	float:left;
+}
+.text-bottom-right{
+	width:100%;height:1rem;
+	position:fixed;
+	left:0;bottom:0;
+	background:#fff;
+}
+.back:before{
+	content:"\e637";
+	font-size:0.5rem;
+	line-height:1rem;
+	float:left;
+	margin-left:0.24rem;
+	color:#666;
+}
+.icon-tubiao{
+	width:3.3rem;height:1rem;
+	float:right;
+	margin-right:0.24rem;
+}
+.love:before{
+	content:"\e602";
+	float:left;
+	line-height:1rem;
+	font-size:0.5rem;
+	color:#666;
+}
+.pl:before{
+	content:"\e641";
+	float:left;
+	margin-left:0.9rem;
+	line-height:1.2rem;
+	font-size:0.55rem;
+	color:#666;
+}
+.enjoy:before{
+	content:"\e648";
+	float:right;
+	line-height:1.1rem;
+	font-size:0.35rem;
+	color:#666;
+	
+}

@@ -1,0 +1,56 @@
+.penzhezhao{
+	width:100%;height:100%;
+	background:#000;
+	opacity: 0.5;
+	position:relative;
+}
+.fabu{
+	width:3rem;
+	height:2rem;
+	position:absolute;
+	left:0;right:0;top:0;bottom:0;
+	margin:auto;
+}
+.fabu ul{
+	width:100%;height:100%;
+}
+.fabu ul li{
+	width:1.5rem;height:100%;
+	padding:0 0.2rem;
+	float:left;
+}
+.dt:before{
+	width:100%;
+	content:"\e621";
+	float:left;
+	margin-left:0.1rem;
+	line-height: 1rem;
+	font-size:0.8rem;
+	color:#fff;
+}
+.wz:before{
+	width:100%;
+	content:"\e6be";
+	float:left;
+	margin-left:0.15rem;
+	line-height: 1rem;
+	font-size:0.7rem;
+	color:#fff;
+}
+.fabu ul li p{
+	font-size:0.3rem;
+	text-align: center;
+	color:#fff;
+}
+.cha{
+	width:0.5rem;height:0.5rem;
+	position:absolute;
+	left:0;right:0;
+	margin:auto;
+	bottom:1rem;
+}
+.cha:before{
+	content:"\e649";
+	font-size:0.8rem;
+	color:#fff;
+}

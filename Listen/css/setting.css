@@ -1,0 +1,58 @@
+html,body{
+	width:100%;height:100%;
+}
+.setting-page{
+	width:100%;height:100%;
+	position:relative;
+}
+.setting-top{
+	width:100%;height:1.1rem;
+	background:#fff;
+	border-bottom:1px solid #ccc;
+}
+.setting-back{
+	width:0.8rem;height:1.1rem;
+	float:right;
+	margin-right:0.24rem;
+}
+.setting-back:before{
+	content:"\e606";
+	font-size:0.5rem;
+	float:right;
+	line-height:1.1rem;
+}
+.setting-top span{
+	float:right;
+	margin-right:2.5rem;
+	font-size:0.5rem;
+	line-height: 1.1rem;
+}
+.setting-center{
+	width:100%;
+}
+.setting-center ul{
+	width:7.02rem;
+	margin:0 auto;
+}
+.setting-center ul li{
+	width:100%;height:1.2rem;
+	border-bottom:1px solid #ccc;
+	font-size:0.3rem;
+	line-height: 1.2rem;
+	color:#333;
+}
+form{
+	width:100%;
+	height:1.3rem;
+	position:absolute;
+	left:0;bottom:0.8rem;
+}
+input{
+	width:100%;height:100%;
+	text-align: center;
+	background:#fff;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	color:#2AC845;
+	font-size:0.3rem;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/zepto.min.js"></script>
+    <script src="js/swiper.jquery.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/resize.js"></script>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		
+    </script>
+</head>
+<body>
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="logo">
+					Tin<span>g</span>
+				</div>
+				<div class="lg-word">
+					<span>聆听、阅读、写作</span>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="words">
+					<p>在这里</p>
+				    <p>停留驻足</p>
+		           <span>倾听时间</span>				  
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="words">
+					<p>在这里</p>
+				    <p>书写生活</p>
+		            <span>感受自我</span>			  
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="words last-word">
+					<p>在这里</p>
+				   <span>开启你的文字世界</span>			  
+				</div>
+				<a href="html/head.html" class="btn">开始体验</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script>
+	var swiper=new Swiper('.swiper-container',{
+        pagination: '.swiper-pagination',
+        onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+            swiperAnimateCache(swiper); //隐藏动画元素
+            swiperAnimate(swiper); //初始化完成开始动画
+        },
+        onSlideChangeEnd: function(swiper){
+            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+        }
+    }) 
+</script>

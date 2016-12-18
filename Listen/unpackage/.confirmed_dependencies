@@ -1,0 +1,92 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"js/swiper.jquery.js",
+			"js/swiper.animate1.0.2.min.js",
+			"js/zepto.min.js",
+			"css/swiper.min.css",
+			"css/animate.css",
+			"js/resize.js",
+			"html/head.html"
+		],
+		"refer": [
+			"html/head.html"
+		]
+	},
+	"html/head.html": {
+		"resources": [
+			"css/font.css",
+			"img/2.jpg",
+			"img/ban2.png",
+			"img/ban3.png",
+			"iconfont/iconfont.woff",
+			"css/head.css",
+			"css/public.css",
+			"img/ban4.png",
+			"img/ban1.png",
+			"img/3.jpg",
+			"img/head2.jpg",
+			"img/ban5.png",
+			"js/swiper.jquery.js",
+			"js/swiper.animate1.0.2.min.js",
+			"css/animate.css",
+			"html/dtpinglun.html",
+			"js/zepto.min.js",
+			"css/swiper.min.css",
+			"js/resize.js",
+			"html/login.html",
+			"html/setting.html"
+		],
+		"refer": [
+			"html/dtpinglun.html",
+			"html/login.html",
+			"html/setting.html"
+		]
+	},
+	"html/dtpinglun.html": {
+		"resources": [
+			"css/dtpinglun.css",
+			"css/font.css",
+			"html/head.html",
+			"iconfont/iconfont.woff",
+			"css/public.css",
+			"js/resize.js",
+			"img/3.jpg",
+			"img/head2.jpg"
+		],
+		"refer": [
+			"html/head.html"
+		]
+	},
+	"html/login.html": {
+		"resources": [
+			"css/login.css",
+			"css/font.css",
+			"html/head.html",
+			"iconfont/iconfont.woff",
+			"css/public.css",
+			"js/resize.js",
+			"html/login.html"
+		],
+		"refer": [
+			"html/head.html",
+			"html/login.html"
+		]
+	},
+	"html/setting.html": {
+		"resources": [
+			"html/setting.html",
+			"css/setting.css",
+			"html/head.html",
+			"css/font.css",
+			"iconfont/iconfont.woff",
+			"css/public.css",
+			"js/resize.js"
+		],
+		"refer": [
+			"html/setting.html",
+			"html/head.html"
+		]
+	}
+}
